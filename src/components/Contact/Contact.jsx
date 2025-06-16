@@ -24,7 +24,7 @@ const Contact = ({ setSectionInView }) => {
         <div className="lg:col-span-2 flex items-center justify-center w-full">
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4086818820533!2d51.39162221500038!3d35.68919778019201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e016839a8cf9f%3A0xfdbffb9074c40259!2sTehran%2C%20Iran!5e0!3m2!1sen!2s!4v1682511784945!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.9874532108893!2d72.8963746746242!3d19.155019282043187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7b9f1a7b9db%3A0x607594cc212f2f0d!2sTata%20Institute%20of%20Social%20Sciences%20(TISS)!5e0!3m2!1sen!2sin!4v1718558201234!5m2!1sen!2sin"
             width="100%"
             height="450"
             allowFullScreen=""
@@ -59,9 +59,9 @@ const Contact = ({ setSectionInView }) => {
             </svg>
             <div>
               <p className="font-bold text-lg text-accent">Address</p>
-              <p>Mmubai,</p>
-              <p>Chembur Tiss</p>
-              <p>400043</p>
+              <p>Mumbai,</p>
+              <p>Chembur, Tata Institute of Social Sciences (TISS)</p>
+              <p>400088</p>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ const Contact = ({ setSectionInView }) => {
             </svg>
             <div>
               <p className="font-bold text-lg text-accent">Phone</p>
-              <p>+98 123 456 789 0</p>
+              <p>+91 9876543210</p>
             </div>
           </div>
         </div>
@@ -115,6 +115,7 @@ const Contact = ({ setSectionInView }) => {
 };
 
 export default Contact;
+
 
 
 
